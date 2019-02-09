@@ -33,7 +33,7 @@ function addElementToBeginningOfArray(array, element){
  }
  
  function destructivelyRemoveElementFromBeginningOfArray(array){
-    return array.shift()
+    return array.shift(array)
    
  }
  
@@ -42,7 +42,7 @@ function addElementToBeginningOfArray(array, element){
  }
  
  function destructivelyRemoveElementFromEndOfArray(array){
-   return array.pop()
+   return array.pop(array)
    
  }
  
