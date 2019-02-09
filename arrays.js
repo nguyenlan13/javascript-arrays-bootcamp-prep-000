@@ -39,15 +39,14 @@ function addElementToBeginningOfArray(array, element){
  
  function removeElementFromBeginningOfArray (array){
    array.slice(1)
-   return array
  }
  
  function destructivelyRemoveElementFromEndOfArray(array){
    array.pop(array)
-   return array
+   
  }
  
  function removeElementFromEndOfArray (array){
    array.slice(0, array.length - 1)
-   return array
+  
  }
