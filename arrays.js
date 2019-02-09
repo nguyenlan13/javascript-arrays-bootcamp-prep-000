@@ -28,7 +28,7 @@ function addElementToBeginningOfArray(array, element){
     return array;
  }
  
- function AccessElementInArray(array, index){
+ function accessElementInArray(array, index){
    return array[index];
  }
  
