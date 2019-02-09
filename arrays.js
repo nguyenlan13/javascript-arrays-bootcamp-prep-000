@@ -28,8 +28,8 @@ function addElementToBeginningOfArray(array, element){
     return array
  }
  
- function AccessElementInArray (array, index){
-   return array [3]
+ function AccessElementInArray(array, index){
+   return index [3]
  }
  
  function destructivelyRemoveElementFromBeginningOfArray (array){
