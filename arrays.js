@@ -29,7 +29,7 @@ function addElementToBeginningOfArray(array, element){
  }
  
  function AccessElementInArray(array, index){
-   return index [3]
+   return [3]
  }
  
  function destructivelyRemoveElementFromBeginningOfArray (array){
