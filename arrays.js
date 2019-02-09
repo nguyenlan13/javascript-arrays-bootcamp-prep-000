@@ -39,5 +39,6 @@ function addElementToBeginningOfArray(array, element){
  
  function removeElementFromBeginningOfArray (array){
    array.slice(array)
+   return array
  }
  
